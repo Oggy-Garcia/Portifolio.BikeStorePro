@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from 'navbar.tsx';
-import Hero from 'Hero.tsx';
-import About from 'About.tsx';
-import Products from 'Products.tsx';
-import Services from 'Services.tsx';
-import Testimonials from 'Testimonials.tsx';
-import Contact from 'Contact.tsx';
-import Footer from 'Footer.tsx';
-import Stats from 'Stats.tsx';
-import Brands from 'Brands.tsx';
+import Navbar from './navbar';
+import Hero from './Hero';
+import About from './About';
+import Products from './Products';
+import Services from './Services';
+import Testimonials from './Testimonials';
+import Contact from './Contact';
+import Footer from './Footer';
+import Stats from './Stats';
+import Brands from './Brands';
 
 const App: React.FC = () => {
   return (
