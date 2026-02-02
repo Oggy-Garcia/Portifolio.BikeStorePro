@@ -29,12 +29,13 @@ const Navbar: React.FC = () => {
           <a 
             href="#home" 
             onClick={scrollToTop}
-            className="flex items-center gap-3 group"
+            className="flex items-center gap-3 group site-logo"
+            aria-label="Voltar ao início"
           >
             <div className="bg-emerald-500 p-2 rounded-xl group-hover:scale-110 transition-transform shadow-lg shadow-emerald-500/20">
-              <Bike className="text-white w-6 h-6" />
+              <Bike className="text-white w-6 h-6" aria-hidden="true" />
             </div>
-            <span className="text-2xl font-black tracking-tighter text-white">
+            <span className="text-2xl font-black tracking-tighter text-white site-logo-text" aria-hidden="true">
               BIKEPRO<span className="text-emerald-500">STORE</span>
             </span>
           </a>
