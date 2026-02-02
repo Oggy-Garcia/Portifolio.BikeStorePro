@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar.tsx';
+import Navbar from './components/navbar.tsx';
 import Hero from './components/Hero.tsx';
 import About from './components/About.tsx';
 import Products from './components/Products.tsx';
